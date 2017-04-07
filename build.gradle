@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'org.rxtx:rxtx:2.1.7'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    runtime 'org.postgresql:postgresql:9.4.1211.jre7'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.fatboyindustrial.gson-javatime-serialisers:gson-javatime-serialisers:1.1.1'
+    compile 'commons-dbutils:commons-dbutils:1.6'
+    compile 'org.apache.commons:commons-dbcp2:2.1.1'
+}

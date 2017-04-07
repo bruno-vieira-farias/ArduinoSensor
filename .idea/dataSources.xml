@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Sidlar Produção - 192.0.1.6" uuid="89fd7bf2-ec3e-419f-b253-98adcce7e0e4">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.0.1.6:1433/sidlar</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ArduinoSensor" uuid="75161eb2-82f8-45ab-8f7d-9c325a592dc9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Siderp Produção - 192.0.1.6" uuid="37cb15a7-93e4-4e80-a77c-2dce7b9581d1">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.0.1.6:1433/Siderp</jdbc-url>
+    </data-source>
+  </component>
+</project>
